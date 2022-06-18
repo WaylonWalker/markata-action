@@ -1,0 +1,7 @@
+name: Markata
+description: Builds markata sites
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.version }}
